@@ -8,7 +8,7 @@ Lua is a smaller language than say JavaScript or Python or Go (100 days repos fo
 
 # Agenda
 
-I shall be following *Programming in Lua* by Roberto lerusalimschy (at least to begin).
+I shall be following *Programming in Lua* by Roberto lerusalimschy (at least to begin). The code is in the `pil` folder.
 
 # Goal
 
