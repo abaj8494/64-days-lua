@@ -67,4 +67,12 @@ finally, the crux of the magic is in
 
 where it took me some time to understand that the checks were cumulative and that indeed
 the indexing wizardry checked the cumulative column / diagonal / anti-diagonal.
+
+note that there are 92 solutions to the 8x8 problem.
+
+furthermore, the alternatives are the brute-force approach, where 8^8 boards are spawned and we need to check all column / diagonal and anti-diagonal violations.
+
+there is also the permutation approach where you can just eliminate the row and col the queen was placed on and then continue your permutations for the n-1 sized square board. this avoids some cases by construction.
+
+the true brute-force approach is O(N^N), whilst permutation is O(N!) and lastly backtracking is O(N!) worst case (but this is much better in practice).
 --]]
